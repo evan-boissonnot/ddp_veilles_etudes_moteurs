@@ -1,0 +1,1926 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "NewScene",
+  "name": "NewScene",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.568
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Score",
+      "value": "0"
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Player",
+      "width": 0,
+      "x": 30,
+      "y": 953,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "locked": false,
+      "name": "Plateforme_1",
+      "width": 320,
+      "x": 0,
+      "y": 952,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 112,
+      "layer": "",
+      "locked": false,
+      "name": "plateforme_2",
+      "width": 320,
+      "x": 0,
+      "y": 968,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "locked": false,
+      "name": "Plateforme_1",
+      "width": 80,
+      "x": 422,
+      "y": 920,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "locked": false,
+      "name": "plateforme_2",
+      "width": 80,
+      "x": 422,
+      "y": 936,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "locked": false,
+      "name": "Plateforme_1",
+      "width": 240,
+      "x": 664,
+      "y": 1016,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "locked": false,
+      "name": "plateforme_2",
+      "width": 240,
+      "x": 664,
+      "y": 1032,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Cherry",
+      "width": 0,
+      "x": 838,
+      "y": 995,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "direction",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Score",
+      "width": 0,
+      "x": 7,
+      "y": 11,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Score",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "locked": false,
+      "name": "Plateforme_1",
+      "width": 256,
+      "x": 1076,
+      "y": 984,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "",
+      "locked": false,
+      "name": "plateforme_2",
+      "width": 256,
+      "x": 1076,
+      "y": 1000,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Cherry",
+      "width": 0,
+      "x": 1243,
+      "y": 963,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Cherry",
+      "width": 0,
+      "x": 357,
+      "y": 841,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "Win",
+      "width": 614,
+      "x": 700,
+      "y": 500,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "Player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "maxFallingSpeed": 1000,
+          "maxSpeed": 250,
+          "roundCoordinates": true,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "eatCherry",
+          "type": "NewExtension::eatCherry",
+          "Property": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 2.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_jump_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 120,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 130,
+                    "y": 89
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 137.592,
+                        "y": 54.2169
+                      },
+                      {
+                        "x": 149.159,
+                        "y": 107.711
+                      },
+                      {
+                        "x": 128.556,
+                        "y": 131.928
+                      },
+                      {
+                        "x": 127.833,
+                        "y": 120
+                      },
+                      {
+                        "x": 133.616,
+                        "y": 107.711
+                      },
+                      {
+                        "x": 105.424,
+                        "y": 138.072
+                      },
+                      {
+                        "x": 104.701,
+                        "y": 126.867
+                      },
+                      {
+                        "x": 111.568,
+                        "y": 119.639
+                      },
+                      {
+                        "x": 97.4718,
+                        "y": 94.6988
+                      },
+                      {
+                        "x": 81.9296,
+                        "y": 57.8313
+                      },
+                      {
+                        "x": 89.8814,
+                        "y": 57.8313
+                      },
+                      {
+                        "x": 102.532,
+                        "y": 90
+                      },
+                      {
+                        "x": 120.604,
+                        "y": 53.8554
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 2.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_fall_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 127.5,
+                    "y": 143
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128.5,
+                    "y": 103
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 110.333,
+                        "y": 114
+                      },
+                      {
+                        "x": 107.667,
+                        "y": 141.333
+                      },
+                      {
+                        "x": 126,
+                        "y": 131.333
+                      },
+                      {
+                        "x": 145.667,
+                        "y": 145
+                      },
+                      {
+                        "x": 144,
+                        "y": 87
+                      },
+                      {
+                        "x": 127.667,
+                        "y": 73
+                      },
+                      {
+                        "x": 109,
+                        "y": 86
+                      },
+                      {
+                        "x": 120,
+                        "y": 52.3333
+                      },
+                      {
+                        "x": 117.333,
+                        "y": 44.3333
+                      },
+                      {
+                        "x": 110.333,
+                        "y": 49
+                      },
+                      {
+                        "x": 102,
+                        "y": 85.3333
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 141.429,
+                        "y": 66.4286
+                      },
+                      {
+                        "x": 112.857,
+                        "y": 102.143
+                      },
+                      {
+                        "x": 115,
+                        "y": 132.857
+                      },
+                      {
+                        "x": 102.857,
+                        "y": 131.429
+                      },
+                      {
+                        "x": 110,
+                        "y": 117.857
+                      },
+                      {
+                        "x": 96.4286,
+                        "y": 125
+                      },
+                      {
+                        "x": 80.7143,
+                        "y": 120
+                      },
+                      {
+                        "x": 95.7143,
+                        "y": 111.429
+                      },
+                      {
+                        "x": 98.5714,
+                        "y": 82.1429
+                      },
+                      {
+                        "x": 99.2857,
+                        "y": 59.2857
+                      },
+                      {
+                        "x": 122.143,
+                        "y": 60.7143
+                      },
+                      {
+                        "x": 122.143,
+                        "y": 77.1429
+                      },
+                      {
+                        "x": 135,
+                        "y": 59.2857
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 149.286,
+                        "y": 59.2857
+                      },
+                      {
+                        "x": 135.714,
+                        "y": 75.7143
+                      },
+                      {
+                        "x": 137.857,
+                        "y": 110.714
+                      },
+                      {
+                        "x": 118.571,
+                        "y": 120
+                      },
+                      {
+                        "x": 108.571,
+                        "y": 112.857
+                      },
+                      {
+                        "x": 77.1429,
+                        "y": 132.143
+                      },
+                      {
+                        "x": 77.1429,
+                        "y": 120.714
+                      },
+                      {
+                        "x": 98.5714,
+                        "y": 106.429
+                      },
+                      {
+                        "x": 110,
+                        "y": 82.1429
+                      },
+                      {
+                        "x": 109.286,
+                        "y": 62.8571
+                      },
+                      {
+                        "x": 124.286,
+                        "y": 55
+                      },
+                      {
+                        "x": 130,
+                        "y": 66.4286
+                      },
+                      {
+                        "x": 141.429,
+                        "y": 56.4286
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 141.429,
+                        "y": 64.2857
+                      },
+                      {
+                        "x": 127.143,
+                        "y": 85
+                      },
+                      {
+                        "x": 128.571,
+                        "y": 96.4286
+                      },
+                      {
+                        "x": 148.571,
+                        "y": 128.571
+                      },
+                      {
+                        "x": 122.143,
+                        "y": 115
+                      },
+                      {
+                        "x": 102.857,
+                        "y": 120
+                      },
+                      {
+                        "x": 75.7143,
+                        "y": 126.429
+                      },
+                      {
+                        "x": 81.4286,
+                        "y": 116.429
+                      },
+                      {
+                        "x": 98.5714,
+                        "y": 105
+                      },
+                      {
+                        "x": 102.857,
+                        "y": 71.4286
+                      },
+                      {
+                        "x": 113.571,
+                        "y": 59.2857
+                      },
+                      {
+                        "x": 125,
+                        "y": 68.5714
+                      },
+                      {
+                        "x": 134.286,
+                        "y": 60.7143
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 125.714,
+                        "y": 93.5714
+                      },
+                      {
+                        "x": 132.857,
+                        "y": 108.571
+                      },
+                      {
+                        "x": 135.714,
+                        "y": 133.571
+                      },
+                      {
+                        "x": 120.714,
+                        "y": 114.286
+                      },
+                      {
+                        "x": 97.8571,
+                        "y": 125.714
+                      },
+                      {
+                        "x": 81.4286,
+                        "y": 120
+                      },
+                      {
+                        "x": 97.8571,
+                        "y": 110
+                      },
+                      {
+                        "x": 105,
+                        "y": 89.2857
+                      },
+                      {
+                        "x": 104.286,
+                        "y": 65.7143
+                      },
+                      {
+                        "x": 123.571,
+                        "y": 56.4286
+                      },
+                      {
+                        "x": 126.429,
+                        "y": 75.7143
+                      },
+                      {
+                        "x": 140.714,
+                        "y": 57.8571
+                      },
+                      {
+                        "x": 145,
+                        "y": 62.8571
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 140,
+                        "y": 62.1429
+                      },
+                      {
+                        "x": 121.429,
+                        "y": 92.8571
+                      },
+                      {
+                        "x": 110,
+                        "y": 100.714
+                      },
+                      {
+                        "x": 122.143,
+                        "y": 114.286
+                      },
+                      {
+                        "x": 113.571,
+                        "y": 132.143
+                      },
+                      {
+                        "x": 109.286,
+                        "y": 115.714
+                      },
+                      {
+                        "x": 101.429,
+                        "y": 125.714
+                      },
+                      {
+                        "x": 83.5714,
+                        "y": 126.429
+                      },
+                      {
+                        "x": 94.2857,
+                        "y": 112.857
+                      },
+                      {
+                        "x": 102.143,
+                        "y": 60
+                      },
+                      {
+                        "x": 122.143,
+                        "y": 60.7143
+                      },
+                      {
+                        "x": 122.143,
+                        "y": 73.5714
+                      },
+                      {
+                        "x": 132.143,
+                        "y": 56.4286
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 152.143,
+                        "y": 59.2857
+                      },
+                      {
+                        "x": 113.571,
+                        "y": 97.8571
+                      },
+                      {
+                        "x": 138.571,
+                        "y": 109.286
+                      },
+                      {
+                        "x": 113.571,
+                        "y": 122.857
+                      },
+                      {
+                        "x": 115,
+                        "y": 110.714
+                      },
+                      {
+                        "x": 77.8571,
+                        "y": 132.857
+                      },
+                      {
+                        "x": 85.7143,
+                        "y": 114.286
+                      },
+                      {
+                        "x": 101.429,
+                        "y": 102.857
+                      },
+                      {
+                        "x": 107.143,
+                        "y": 81.4286
+                      },
+                      {
+                        "x": 105.714,
+                        "y": 65
+                      },
+                      {
+                        "x": 121.429,
+                        "y": 57.8571
+                      },
+                      {
+                        "x": 125.714,
+                        "y": 77.1429
+                      },
+                      {
+                        "x": 140.714,
+                        "y": 56.4286
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 145.714,
+                        "y": 75.7143
+                      },
+                      {
+                        "x": 113.571,
+                        "y": 97.8571
+                      },
+                      {
+                        "x": 129.286,
+                        "y": 125
+                      },
+                      {
+                        "x": 119.286,
+                        "y": 129.286
+                      },
+                      {
+                        "x": 112.143,
+                        "y": 111.429
+                      },
+                      {
+                        "x": 101.429,
+                        "y": 120.714
+                      },
+                      {
+                        "x": 77.1429,
+                        "y": 120.714
+                      },
+                      {
+                        "x": 92.8571,
+                        "y": 112.857
+                      },
+                      {
+                        "x": 102.143,
+                        "y": 87.8571
+                      },
+                      {
+                        "x": 106.429,
+                        "y": 55.7143
+                      },
+                      {
+                        "x": 125.714,
+                        "y": 56.4286
+                      },
+                      {
+                        "x": 128.571,
+                        "y": 80
+                      },
+                      {
+                        "x": 150,
+                        "y": 57.1429
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 80.5,
+                    "y": 131
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109.5,
+                    "y": 94
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 149.286,
+                        "y": 63.5714
+                      },
+                      {
+                        "x": 113.571,
+                        "y": 97.8571
+                      },
+                      {
+                        "x": 127.857,
+                        "y": 132.857
+                      },
+                      {
+                        "x": 117.857,
+                        "y": 132.143
+                      },
+                      {
+                        "x": 110,
+                        "y": 117.857
+                      },
+                      {
+                        "x": 94.2857,
+                        "y": 126.429
+                      },
+                      {
+                        "x": 77.1429,
+                        "y": 120.714
+                      },
+                      {
+                        "x": 92.8571,
+                        "y": 112.857
+                      },
+                      {
+                        "x": 102.143,
+                        "y": 87.8571
+                      },
+                      {
+                        "x": 102.143,
+                        "y": 60
+                      },
+                      {
+                        "x": 122.143,
+                        "y": 60.7143
+                      },
+                      {
+                        "x": 125.714,
+                        "y": 77.1429
+                      },
+                      {
+                        "x": 140.714,
+                        "y": 56.4286
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 109.5,
+                    "y": 133
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 107.5,
+                    "y": 95
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 143,
+                        "y": 58
+                      },
+                      {
+                        "x": 116,
+                        "y": 99
+                      },
+                      {
+                        "x": 114,
+                        "y": 132.667
+                      },
+                      {
+                        "x": 106,
+                        "y": 130.667
+                      },
+                      {
+                        "x": 104,
+                        "y": 125
+                      },
+                      {
+                        "x": 83,
+                        "y": 120.667
+                      },
+                      {
+                        "x": 87.6667,
+                        "y": 114
+                      },
+                      {
+                        "x": 98.6667,
+                        "y": 114.667
+                      },
+                      {
+                        "x": 99,
+                        "y": 65
+                      },
+                      {
+                        "x": 116,
+                        "y": 56
+                      },
+                      {
+                        "x": 121,
+                        "y": 74
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RunG",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run__g_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 118.5,
+                    "y": 130
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.688,
+                        "y": 69
+                      },
+                      {
+                        "x": 131.062,
+                        "y": 124.5
+                      },
+                      {
+                        "x": 116.813,
+                        "y": 113.25
+                      },
+                      {
+                        "x": 102.188,
+                        "y": 132
+                      },
+                      {
+                        "x": 109.688,
+                        "y": 106.125
+                      },
+                      {
+                        "x": 98.0625,
+                        "y": 87
+                      },
+                      {
+                        "x": 77.8125,
+                        "y": 57.75
+                      },
+                      {
+                        "x": 97.3125,
+                        "y": 80.625
+                      },
+                      {
+                        "x": 100.688,
+                        "y": 61.125
+                      },
+                      {
+                        "x": 110.813,
+                        "y": 57.375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mage_run__g_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 118.5,
+                    "y": 130
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.688,
+                        "y": 69
+                      },
+                      {
+                        "x": 131.062,
+                        "y": 124.5
+                      },
+                      {
+                        "x": 116.813,
+                        "y": 113.25
+                      },
+                      {
+                        "x": 102.188,
+                        "y": 132
+                      },
+                      {
+                        "x": 109.688,
+                        "y": 106.125
+                      },
+                      {
+                        "x": 98.0625,
+                        "y": 87
+                      },
+                      {
+                        "x": 77.8125,
+                        "y": 57.75
+                      },
+                      {
+                        "x": 97.3125,
+                        "y": 80.625
+                      },
+                      {
+                        "x": 100.688,
+                        "y": 61.125
+                      },
+                      {
+                        "x": 110.813,
+                        "y": 57.375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 720,
+      "name": "Background_image",
+      "tags": "",
+      "texture": "back.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1280,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 16,
+      "name": "Plateforme_1",
+      "tags": "",
+      "texture": "plateforme_1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "height": 16,
+      "name": "plateforme_2",
+      "tags": "",
+      "texture": "plateforme_2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "Cherry",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "cherry",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cherry-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cherry-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cherry-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cherry-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cherry-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cherry-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": true,
+      "name": "Score",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Score : 0",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": true,
+      "name": "Win",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Bravo vous avez gagné !!",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"Jump\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlatformBehavior::IsOnFloor"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Direction",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"RunG\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Run\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Cherry",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Delete"
+          },
+          "parameters": [
+            "Cherry",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score",
+            "+",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "\"Score: \" + ToString(Variable(Score))"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "1050"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "30",
+            "=",
+            "953"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Delete"
+          },
+          "parameters": [
+            "Cherry",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "\"Score: \" + ToString(Variable(Score))"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Cherry",
+            "357",
+            "841",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Cherry",
+            "838",
+            "995",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Cherry",
+            "1243",
+            "963",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Score",
+            ">=",
+            "3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "Win",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Score",
+            "<",
+            "3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "Win"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "name": "Background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "name": "Plateforme",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "eatCherry",
+      "type": "NewExtension::eatCherry"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "associatedLayout": "NewScene",
+  "lastChangeTimeStamp": 0,
+  "name": "NewExternalEvents",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ]
+}

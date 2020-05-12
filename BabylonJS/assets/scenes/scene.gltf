@@ -1,0 +1,541 @@
+{
+  "asset": {
+    "generator": "BabylonJS",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "spot"
+        }
+      ]
+    }
+  },
+  "buffers": [
+    {
+      "byteLength": 61248,
+      "uri": "scene.bin"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Ground",
+      "mesh": 0,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SkyBox",
+      "mesh": 1,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "New Cube",
+      "translation": [
+        0,
+        20,
+        0
+      ],
+      "mesh": 2,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Spot Light",
+      "translation": [
+        -30,
+        30,
+        30
+      ],
+      "rotation": [
+        -0.4247082002778669,
+        -0.3398511429799873,
+        -0.17591989660616114,
+        0.8204732385702833
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 6
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          },
+          "indices": 6,
+          "material": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "scene": 0,
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 13068,
+      "name": "position - Ground",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13068,
+      "byteOffset": 13068,
+      "name": "normal - Ground",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8712,
+      "byteOffset": 26136,
+      "name": "uv - Ground",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24576,
+      "byteOffset": 34848,
+      "name": "Indices - Ground"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 59424,
+      "name": "position - SkyBox",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 59712,
+      "name": "normal - SkyBox",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 60000,
+      "name": "uv - SkyBox",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 60192,
+      "name": "Indices - SkyBox"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 60336,
+      "name": "position - New Cube",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 60624,
+      "name": "normal - New Cube",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 60912,
+      "name": "uv - New Cube",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 61104,
+      "name": "Indices - New Cube"
+    }
+  ],
+  "accessors": [
+    {
+      "name": "position - Ground",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1089,
+      "type": "VEC3",
+      "min": [
+        -256,
+        0,
+        -256
+      ],
+      "max": [
+        256,
+        0,
+        256
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - Ground",
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1089,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv - Ground",
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1089,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - Ground",
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 6144,
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "name": "position - SkyBox",
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -2500,
+        -2500,
+        -2500
+      ],
+      "max": [
+        2500,
+        2500,
+        2500
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - SkyBox",
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - SkyBox",
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "name": "position - New Cube",
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - New Cube",
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - New Cube",
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "byteOffset": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "Amiga",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      }
+    },
+    {
+      "name": "default material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      }
+    },
+    {
+      "name": "Wood",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349,
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      }
+    },
+    {
+      "name": "Documentation",
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      },
+      "emissiveTexture": {
+        "index": 2,
+        "texCoord": 0
+      }
+    },
+    {
+      "name": "Skybox",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.9999999999999994,
+        "roughnessFactor": 0
+      }
+    },
+    {
+      "name": "Sphere PBR",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 0
+      },
+      "normalTexture": {
+        "index": 6,
+        "texCoord": 0
+      }
+    },
+    {
+      "name": "Ground",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        },
+        "baseColorFactor": [
+          0.2798467008491101,
+          0.11202092111481407,
+          0.11202092111481407,
+          1
+        ],
+        "metallicFactor": 0.8683689103552605,
+        "roughnessFactor": 0
+      },
+      "normalTexture": {
+        "index": 7,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 8,
+        "strength": 1
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "amiga.jpg",
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "name": "albedo.png",
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "name": "documentation.png",
+      "sampler": 0
+    },
+    {
+      "source": 3,
+      "name": "rustediron2_basecolor.png",
+      "sampler": 0
+    },
+    {
+      "source": 4,
+      "name": "bjsBaseColorTexture_4.png"
+    },
+    {
+      "source": 5,
+      "name": "bjsMetallicRoughnessTexture_5.png"
+    },
+    {
+      "source": 6,
+      "name": "rustediron2_normal.png",
+      "sampler": 0
+    },
+    {
+      "source": 7,
+      "name": "mahogfloor_normal.jpg",
+      "sampler": 0
+    },
+    {
+      "source": 8,
+      "name": "mahogfloor_ao.jpg",
+      "sampler": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "images": [
+    {
+      "name": "amiga.jpg",
+      "uri": "amiga.jpg.png"
+    },
+    {
+      "name": "albedo.png",
+      "uri": "albedo.png.png"
+    },
+    {
+      "name": "documentation.png",
+      "uri": "documentation.png.png"
+    },
+    {
+      "name": "rustediron2_basecolor.png",
+      "uri": "rustediron2_basecolor.png.png"
+    },
+    {
+      "name": "bjsBaseColorTexture_4.png",
+      "uri": "bjsBaseColorTexture_4.png.png"
+    },
+    {
+      "name": "bjsMetallicRoughnessTexture_5.png",
+      "uri": "bjsMetallicRoughnessTexture_5.png.png"
+    },
+    {
+      "name": "rustediron2_normal.png",
+      "uri": "rustediron2_normal.png.png"
+    },
+    {
+      "name": "mahogfloor_normal.jpg",
+      "uri": "mahogfloor_normal.jpg.png"
+    },
+    {
+      "name": "mahogfloor_ao.jpg",
+      "uri": "mahogfloor_ao.jpg.png"
+    }
+  ]
+}
